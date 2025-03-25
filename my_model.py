@@ -1,8 +1,5 @@
 import pybamm
-
-  model = pybamm.BaseModel()
-
-# Define variables, equations, etc.
+model = pybamm.BaseModel()
 x = pybamm.Variable("x")
 y = pybamm.Variable("y")
 dxdt = 4 * x - 2 * y
