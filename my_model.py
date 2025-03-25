@@ -1,6 +1,6 @@
 import pybamm
 
-model = pybamm.BaseModel()
+  model = pybamm.BaseModel()
 
 # Define variables, equations, etc.
 x = pybamm.Variable("x")
