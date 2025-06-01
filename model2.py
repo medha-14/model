@@ -2,7 +2,7 @@ import pybamm
 from .base_lithium_ion_model import BaseModel
 
 
-class DFN(BaseModel):
+class CustomModel(BaseModel):
     """
     Doyle-Fuller-Newman (DFN) model of a lithium-ion battery, from
     :footcite:t:`Marquis2019`. See :class:`pybamm.lithium_ion.BaseModel` for more
