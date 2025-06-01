@@ -1,5 +1,5 @@
 import pybamm
-from .base_lithium_ion_model import BaseModel
+from base_lithium_ion_model import BaseModel
 
 
 class CustomModel(BaseModel):
